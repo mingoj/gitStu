@@ -17,6 +17,10 @@ func (*UserMod) Login() {
 		main分支新增了代码 1 2
 		新增了代码 3 4 5   这里的逻辑会影响个人信息修
 
+		初始化好友配置 好友权限
+		可能影响 好友相关代码
+		代码1
+		代码2
 
 	*/
 	fmt.Println("user login")
