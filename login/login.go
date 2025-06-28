@@ -28,6 +28,14 @@ func (*UserMod) Login() {
 		新增认真功能 3
 	*/
 
+	fmt.Println("feat_friends")
+	/*
+		新增好友相关的代码
+		代码1
+		代码2
+		代码3
+	*/
+
 }
 
 func NewUserMod() *UserMod {
