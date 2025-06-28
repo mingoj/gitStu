@@ -40,6 +40,12 @@ func (*UserMod) Login() {
 		代码3
 	*/
 
+	fmt.Println("初始化钱包相关功能")
+	/*
+		------------
+		------------
+	*/
+
 }
 
 func NewUserMod() *UserMod {
