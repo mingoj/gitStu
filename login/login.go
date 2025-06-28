@@ -1,6 +1,11 @@
 package login
 
-func main() {
+import "fmt"
+
+type UserMod struct {
+}
+
+func (*UserMod) Login() {
 
 	/*
 		初始化代码
@@ -11,5 +16,10 @@ func main() {
 
 
 	*/
+	fmt.Println("user login")
 
+}
+
+func NewUserMod() *UserMod {
+	return &UserMod{}
 }
