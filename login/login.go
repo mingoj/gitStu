@@ -18,6 +18,13 @@ func (*UserMod) Login() {
 	*/
 	fmt.Println("user login")
 
+	/*
+		dmj 分支新增功能
+		新增认证功能 1
+		新增认证功能 2
+		新增认真功能 3
+	*/
+
 }
 
 func NewUserMod() *UserMod {
